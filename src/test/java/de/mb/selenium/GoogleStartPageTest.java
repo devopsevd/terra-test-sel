@@ -28,7 +28,7 @@ public class GoogleStartPageTest {
 		DesiredCapabilities capability = DesiredCapabilities.chrome();
 		URL gridUrl = new URL(gridServerUrl);
 		driver = new RemoteWebDriver(gridUrl, capability);
-		driver.get("http://10.0.0.121:81/SpringIODemo/demoPage");
+		driver.get("http://10.0.0.120:81/SpringIODemo/demoPage");
 	}
 
 	@After
